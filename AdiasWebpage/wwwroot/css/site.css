@@ -1,0 +1,102 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+html {
+    margin: 0;
+    min-height: 100vh;
+}
+
+body {
+    margin-top: -0.60rem !important;
+    padding: 0 !important;
+
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+section {
+    color: black;
+    font-size: medium;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+navbar ul {
+    top: 0px;
+}
+
+
+.container-text {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.bg-ui {
+    margin: 0;
+    background-color: blue; /* Chrome 10-25, Safari 5.1-6 */
+
+}
+
+@media only screen and (min-device-width: 260px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    .responsiv {
+        width: 70%;
+        height: auto
+    }
+    .responsivCv {
+        width: 100%;
+        height: auto
+    }
+
+}
+
+@media only screen and (min-device-width: 480px) {
+
+    .responsiv {
+        width: 30%;
+        height: auto
+    }
+    .responsivCv {
+        width: 100%;
+        height: auto
+    }
+}
+
+
+
+navbar-toggler {
+    color: white;
+}
+
+.font-color-menu {
+    color: #fff;
+}
+
+.btn-primary {
+    font-family: Open Sans;
+    font-size: 13px;
+    color: rgba(58, 133, 191, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(58, 133, 191, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-outline-warning {
+    border-radius: 50px;
+    color: #fff;
+}
+}
