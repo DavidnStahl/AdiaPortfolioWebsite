@@ -12,5 +12,9 @@ namespace AdiasWebpage.Controllers
         {
             return View();
         }
+        public IActionResult SwedishCv()
+        {
+            return View();
+        }
     }
 }
