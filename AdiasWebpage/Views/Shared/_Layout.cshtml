@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-ui mt-2 container-fluid">
         <div class="container">
-            <a class="navbar-brand text-light font-weight-bold" href="#">Digital Strateg</a>
+            <a class="navbar-brand text-light font-weight-bold" style="padding-left:10px" href="#">Digital Strateg</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -22,20 +22,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto topnav ">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" asp-controller="Home" asp-action="Index">Hem <span class="sr-only">(current)</span></a>
+                        <a style="padding-left:10px" class="nav-link text-light" asp-controller="Home" asp-action="Index">Hem <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" style="color: #fff;" asp-controller="Portfolio" asp-action="Index">Portfolio</a>
+                        <a style="padding-left:10px" class="nav-link text-light" style="color: #fff;" asp-controller="Portfolio" asp-action="Index">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" style="color: #fff;" asp-controller="Cv" asp-action="Index">CV</a>
+                        <a style="padding-left:10px" class="nav-link text-light" style="color: #fff;" asp-controller="Cv" asp-action="Index">CV</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

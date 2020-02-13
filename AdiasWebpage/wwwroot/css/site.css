@@ -47,33 +47,45 @@ navbar ul {
     background-color: blue; /* Chrome 10-25, Safari 5.1-6 */
 
 }
+.responsivLanguish{
+    background-color:blue;
+    border:blue;
+}
 
 @media only screen and (min-device-width: 260px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 3) {
-
+    .responsivLanguish {
+        width: 375px;
+    }
     .responsiv {
         width: 70%;
-        height: auto
+        height: auto;
     }
     .responsivCv {
         width: 100%;
-        height: auto
+        height: 100%;
     }
 
 }
 
 @media only screen and (min-device-width: 480px) {
 
+    .responsivLanguish {
+        width: 100px;
+    }
     .responsiv {
         width: 30%;
-        height: auto
+        height: auto;
     }
     .responsivCv {
-        width: 100%;
-        height: auto
+        width: 70%;
+        height: 110%;
     }
 }
 
-
+.container-fluid{
+    padding-left:0;
+    padding-right:0;
+}
 
 navbar-toggler {
     color: white;
