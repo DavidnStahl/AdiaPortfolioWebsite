@@ -42,20 +42,29 @@ navbar ul {
 
 
 
+
 .bg-ui {
     margin: 0;
-    background-color: blue; /* Chrome 10-25, Safari 5.1-6 */
-
+    background-color:blue;
 }
 .responsivLanguish{
     background-color:blue;
     border:blue;
+    border-radius: 0%;
+}
+
+.responsivLanguish:hover{
+    border: blue;
+    border-radius: 0%;
 }
 
 @media only screen and (min-device-width: 260px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 3) {
     .responsivLanguish {
-        width: 375px;
+        width: 380px;
+        padding-left:40px;
+        
     }
+    
     .responsiv {
         width: 70%;
         height: auto;
